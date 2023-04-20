@@ -1,0 +1,115 @@
+
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+html ,body {
+    width : 100%;
+    height : 100%;
+}
+
+
+#main{
+    height : 100%;
+    width : 100%;
+    overflow: hidden;
+    background-color: hsla(341, 13%, 38%, 0.703);
+    display: flex;
+}
+
+#part1{
+    height : 100%;
+    width : 26%;
+    /* background-color: red; */
+}
+
+#part2{
+    height : 100%;
+    width : 68%;
+    background-color: skyblue;
+    background-image: url('https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80');
+    background-size: cover ;
+    background-position: center;
+}
+
+#overlay{
+    height : 100%;
+    width : 100%;
+    background-color: hsla(0, 7%, 54%, 0.334);
+}
+
+#part3{
+    height : 100%;
+    width : 7%;
+    /* background-color: lightgreen; */
+}
+
+#text-div{
+    /* height: 300px; */
+    position:absolute;
+    width : 400px;
+    /* background-color: red; */
+    left:5%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+/* text div ke andar jo h1 hai */
+#text-div>h1{
+    font-size : 70px;
+    font-family: monument;
+    font-weight : 900;
+    letter-spacing: 8px;
+    line-height: 78px;
+    color : #fff;
+    text-transform: uppercase;
+}
+
+#small-img-div{
+    height : 350px;
+    width : 300px;
+    background-color: red;
+    background-image: url('https://images.unsplash.com/photo-1534008757030-27299c4371b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top:50%;
+    right : 5%;
+    transform:translate(0 , -50%);
+     
+}
+
+#overlay-in{
+    height : 100%;
+    width : 100%;
+    background-color: hsla(0, 5%, 50%, 0.441);
+}
+
+#vertical-text{
+    position: absolute;
+    /* width : 99%; */
+    /* background-color: red; */
+    transform: rotate(90deg);
+    right: -43%;
+    top: -7%;
+    transform-origin:0% 0%;
+
+}
+
+#vertical-text h1{
+
+    font-size: 60px;
+    font-weight : 700;
+    font-family: monument;
+    color: transparent;
+    letter-spacing: 15px;
+    transform: rotate(90d);
+    transform-origin: 0%;
+    -webkit-text-stroke-width: 2px ;
+    -webkit-text-stroke-color: #fff;
+
+}
+
