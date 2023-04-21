@@ -12,4 +12,5 @@ In Second Project : Modern landing page drew from behance
 
 Behance Live Link : https://www.behance.net/gallery/64208001/DESIGNERD-20
 
-Live Link :- (Modern Website Landing page 2) : 
+Live Link :- (Modern Website Landing page 2) : https://jatin-modern-website-2.netlify.app/
+
