@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Position</title>
+  <style>
+    body{
+      background: yellow;
+}
+    .box{
+      width: 80%;
+      height: 30vh;
+      background: red;
+      
+      position: static;
+      top : 50%;
+      left : 50%;
+      
+    }
+  </style>
+</head>
+<body>
+  <div class="box">  
+  </div>
+</body>
+</html>
+
+//Notice while using static , you cant move any element in any pos
+static means dead , stuck at a point . postion means moving one element 
+without moving /disturbing another element.
+
+Box edge is 20px;
+
+Kabhi bhi ek div ko center karna ho toh margin 0 auto ka use kartey hai 
+
+
+positon absolute karey hai toh parent browser jo jata hai , jbki parent hona chaieyh tha.
+RElative parent ke andar hi move hoga.
+
+
+

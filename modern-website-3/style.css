@@ -1,0 +1,193 @@
+
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    width:100%;
+    height : 100%;
+}
+
+#main{
+    height : 100%;
+    width : 100%;
+    /* background-color: red; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ #main img{
+    height: 565px;
+    width: 430px;
+    position: relative;
+     z-index: 99;
+     /* In CSS code bases, you'll often see z-index values of 999, 9999 or 99999. This is a perhaps lazy way to ensure that the element is always on top. */
+    /* top: 20%;
+    left : 20%; */ 
+    /* where in z-axes man */
+    object-fit: cover;
+
+ }
+
+
+#scroll-div{
+    position: absolute;
+    top:24%;
+    /* width : 100%; */
+    height : 100px;
+    white-space: nowrap;
+    /* in one line */
+    overflow-x: auto;
+    overflow-y: hidden; 
+    /* koi bhi element bahar nilta hai means overflow hota hai
+    tanki overflow hogyi hai
+    */
+    /* z-index: 100; */
+
+}
+
+#scroll-div::-webkit-scrollbar{
+    display: none;
+}
+
+#scroll-div h1{
+    display: inline-block;
+    font-size: 84px;
+    text-transform: uppercase;
+    margin-right : 30px;
+    letter-spacing: 3px;
+    font-family: monument;
+    color: #f99a4a; 
+
+    /* Applying animations  */
+    animation-name: scroll;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; 
+
+}
+
+
+
+
+ #scroll-div2{
+    position: absolute;
+    top:44%;
+    width : 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    /* koi bhi element bahar nilta hai means overflow hota hai
+    tanki overflow hogyi hai
+    */
+    z-index: 100;
+    
+ }
+
+#scroll-div2::-webkit-scrollbar{
+    display: none;
+}
+
+
+#scroll-div2 h1{
+    display: inline-block;
+    font-size: 84px;
+    font-family: monument;
+    text-transform: uppercase;
+    margin-right : 30px;
+    letter-spacing: 3px;
+    color:transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: grey ;
+     /* Applying animations  */
+     animation-name: scroll;
+     animation-duration: 1s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite; 
+    
+
+
+}
+
+
+#scroll-div3{
+    position: absolute;
+    top:64%;
+    width : 100%;
+    /* height : 100px; */
+    white-space: nowrap; 
+    overflow-x: auto;
+    overflow-y: hidden;
+    /* koi bhi element bahar nilta hai means overflow hota hai
+    tanki overflow hogyi hai
+    */
+    /* z-index: 100; */
+    
+
+}
+
+
+#scroll-div3::-webkit-scrollbar{
+    display: none;
+}
+
+
+ #scroll-div3 h1{
+    display: inline-block;
+    font-size: 84px;
+    font-family: monument;
+    text-transform: uppercase;
+    margin-right : 30px;
+    letter-spacing: 3px;
+     /* Applying animations  */
+     animation-name: scroll;
+     animation-duration: 1s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite; 
+     animation-direction: reverse;
+
+} 
+
+
+#text{
+    position: absolute;
+    font-size: 25px ;
+    font-family: monument;
+    width: 60%;
+    z-index: 999;
+    top: 10%;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+/* First creating animations */
+
+@keyframes scroll {
+    /* before
+    from{
+
+    }
+    /* after */
+    /* to{
+
+    } */ 
+
+    0%{
+        transform: translateX(calc(-100% - 32px));
+    }
+    
+    100%{
+        transform: translateX(0);
+    } 
+
+}
+
+
