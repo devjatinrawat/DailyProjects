@@ -1,0 +1,81 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    width : 100vw;
+    height : 100vh;
+
+}
+
+.card-container{
+
+/* top | right | bottom | left */
+    padding: 20px 20px 10px 20px;
+    /* Radius is set for all 4 sides */ 
+    border-radius: 10px;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
+    width: 380px;
+    height : 370px;
+    margin-left : 70px;
+    margin-top:50px;
+}
+
+.project-img{
+    width: 340px;
+    height : 200px;
+    border-radius : 10px;
+}
+
+.page-heading{
+    line-height: 150%;
+    margin-top : 2px;
+    width: 380px;
+    font-size : 1.6em;
+    font-weight: 700;
+
+}
+
+hr{
+    margin-top: 3px;
+    color: grey;
+    width: 75%;
+    border: 1px solid rgba(128, 128, 128, 0.27);
+    float: left; 
+}
+
+
+.price-options{
+    display: inline-block;
+    margin-top : 15px;
+
+}
+
+.price-options .price-tag{
+font-size: 1.2rem;
+font-weight: 700;
+color: rgb(102, 116, 204);
+
+}
+
+.price-tag-color{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(119, 124, 133);
+    margin-left : 10px;
+}
+
+.btn-green{
+    background-color: #1DD1A1;
+    color: #fff;
+    padding:4px;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 20px;
+    margin-left : 10px;
+    border: 0px;
+}
