@@ -1,9 +1,112 @@
-<mxfile host="app.diagrams.net" modified="2023-07-19T07:20:35.762Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" version="21.6.3" etag="icGHwaL_4Bk7T0asTurO" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-19T07:49:34.872Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" etag="9uzVORrtnDHa0hvWXh03" version="21.6.3" type="github">
   <diagram name="Page-1" id="L_zDSqAfLXy7nQztbtw6">
-    <mxGraphModel>
+    <mxGraphModel dx="1534" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-2" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="135" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="740" as="sourcePoint" />
+            <mxPoint x="200" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="740" as="sourcePoint" />
+            <mxPoint x="440" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="740" as="sourcePoint" />
+            <mxPoint x="640" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-9" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.kinesis_enabled_app;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="130" width="64.5" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-10" value="App&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="287.25" y="197.5" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-11" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=api" vertex="1" parent="1">
+          <mxGeometry x="500" y="127.5" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-12" value="API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="197.5" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-13" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/databases.svg;" vertex="1" parent="1">
+          <mxGeometry x="720" y="130" width="71.43" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-14" value="Database&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="715.71" y="197.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-15" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Goal : Prepare a flow diagram to show how interaction happens after the user entered&amp;nbsp; the zip code." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-389" y="19" width="1000" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p_w6vnGDdGIOs9mnifWV-17" target="p_w6vnGDdGIOs9mnifWV-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-17" value="user visits home page&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.519;entryY=-0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p_w6vnGDdGIOs9mnifWV-19" target="p_w6vnGDdGIOs9mnifWV-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-19" value="user enters the zip code." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="252.25" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p_w6vnGDdGIOs9mnifWV-21" target="p_w6vnGDdGIOs9mnifWV-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-21" value="Validate zip code&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p_w6vnGDdGIOs9mnifWV-23" target="p_w6vnGDdGIOs9mnifWV-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-23" value="Request store data based on zip code from API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p_w6vnGDdGIOs9mnifWV-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="755.7200000000003" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-27" value="zip code stored in DB.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="695.72" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p_w6vnGDdGIOs9mnifWV-33" target="p_w6vnGDdGIOs9mnifWV-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-33" value="zip code will be searched and retrieved" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="696" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p_w6vnGDdGIOs9mnifWV-34" target="p_w6vnGDdGIOs9mnifWV-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="445" y="600" />
+              <mxPoint x="445" y="601" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-34" value="return store location&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="p_w6vnGDdGIOs9mnifWV-38" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-38" value="user able to see the store location." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p_w6vnGDdGIOs9mnifWV-39" value="user gets store location." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
