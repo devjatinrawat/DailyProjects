@@ -1,0 +1,6 @@
+
+
+-head
+-routing , going through hyperlink
+-  navigate to some specific section using link give id to it. like we connected label to id.also write # in the url and add that id after .html or .php etc., and clicking on a button. , and other similar actions.
+-comment

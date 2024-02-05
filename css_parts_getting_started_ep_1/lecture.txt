@@ -1,0 +1,18 @@
+
+
+- three ways to write css
+- Inline css = element style ,
+Drawback Example if there are 10 paragrphs 
+so i will be have to write style for all 10 paragraphs which is not good .
+as it go opp to DRY Principle . DRY  stands for Don't Repeat Yourself.
+- 2nd way is internal STYLE or embedded CSS ::::
+give a style attribute , it follows style atrribute write once.
+Drawback : for every page you will have to give color red.
+Not Recommended
+
+- External CSS 
+- how css page is loaded to our frontend - browser sent request to html
+and server send back the response with the data of that requested file (html , css)
+- 404 not ok, 304 ok
+- user Agent stylesheet provided by browser  itself like default font and colors etc..
+- properties

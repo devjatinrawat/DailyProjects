@@ -1,0 +1,10 @@
+
+
+- using class selectors 
+- id selector , 19:14 - Attribute Selectors in CSS
+- attribute selector - class and id both are attribute selector
+[class] for choosing class
+- combinator selector 23:58 - Combinator Selectors in CSS
+eg ul p where p is the descdent 
+and for class also works .web p
+-psedo selector - hover , 

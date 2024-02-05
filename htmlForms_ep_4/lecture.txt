@@ -1,0 +1,14 @@
+
+
+
+Form
+
+ - search bar in a form tag
+ - integrate in youtube usign action 
+ - using input element in form tag
+ - add submit btn
+ - using min , max 
+ - using minlength
+ -create dummy
+
+ 

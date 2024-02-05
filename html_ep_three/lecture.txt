@@ -1,0 +1,35 @@
+Block
+
+- Their content takes 100% width 
+- ex h1 , ul , p , ol
+
+
+Inline
+
+- content = space
+- bold will come after bold.
+ex img , bold , italic , a
+
+
+span 
+
+- to style a special text 
+
+
+
+div
+
+- to keep it organized , to keep it in a group , to wrap elements in one box.
+- stands for divison 
+
+Global attributes
+
+- are attrbutes that can be used with all HTML elements.
+- ex style ,  hidden , title.
+- hover text appears use title tag.
+
+
+custom attributes
+- are not part of the standard HTML but they can be added by developers .
+-valid attribute.
+- h1 klkdkfdlf=dfdfd

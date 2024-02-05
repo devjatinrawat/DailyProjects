@@ -1,0 +1,66 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0" >
+        <title>Testing Html forms</title>
+    </head>
+    <body>
+        <h1>Testing Html forms</h1>
+
+        <form>
+
+            <label for="username">username : </label>
+            <input type="text" placeholder="enter your username" id="username" required> <br> <br>
+
+            <label for="email">email : </label>
+            <input type="email" placeholder="enter your email" id="email" required> <br> <br>
+            
+
+            <label for="password">password : </label>
+            <input type="password" placeholder="enter your password" id="password" required>
+            <br> <br>
+
+            <p>select your gender</p>
+            <label for="male">male</label>
+            <input type="radio" id="male" name="gender">
+
+
+            <label for="female">female</label>
+            <input type="radio" id="female" name="gender">
+
+
+
+            <label for="other">other</label>
+            <input type="radio" id="other" name="gender">
+
+            <br> <br>
+
+            <!-- age groups -->
+            <label for="age-group">Age-Group</label>
+            <select name="age-group-values" id="age-group">
+                <option value="under20">under 20</option>
+                <option value="under30">under 30</option>
+                <option value="under40">under 40</option>
+                <option value="under50">under 50</option>
+                <option value="50+">50+</option>
+
+            </select>
+<br><br>
+
+
+
+
+            <!--  type attribute  : defines wwhihc type of input control has to be displayed
+                value : specifies the value to be sent to  server when a form is submitted
+        
+        -->
+            <input type="submit" value="submit">
+
+
+        </form>
+    </body>
+</html>
